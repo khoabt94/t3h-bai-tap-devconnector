@@ -1,0 +1,33 @@
+
+/* ************************************* */
+/* Add Edu */
+/* ************************************* */
+
+.section-addedu {
+    background-color: #fff;
+    width: 100%;
+    padding: 9.6rem;
+}
+
+.addedu-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.addedu__form {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.addedu-container small {
+    margin-top: 3.2rem;
+}
+
+.addedu__date {
+    display: flex;
+    flex-direction: column;
+}
+
+

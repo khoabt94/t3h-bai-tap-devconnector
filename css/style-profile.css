@@ -1,0 +1,128 @@
+
+/* ************************************* */
+/* Profile */
+/* ************************************* */
+
+.section-profile {
+    background-color: #fff;
+    width: 100%;
+    padding: 9.6rem 0;
+}
+
+/* Profile__basic */
+
+.profile__basic, .profile__info {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.4rem;
+    border: 1px solid #ccc;
+    padding: 4.8rem;
+}
+
+
+.profile__basic p:last-child {
+    margin-bottom: 3.2rem;
+}
+
+.profile__img-img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+
+/* Profile__info */
+
+.profile__bio:first-of-type {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3.2rem;
+}
+
+.profile__bio .heading-tertiary, .profile__bio .body-text {
+    line-height: 1.6;
+}
+
+.profile__skill-set {
+    display: flex;
+    margin-top: 1.6rem;
+    gap: 3.2rem;
+}
+
+/* Exp-Edu */
+
+.profile__expedu {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.profile__expedu-component {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 3.2rem;
+    border: 1px solid #ccc;
+}
+
+.profile__expedu-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-bottom: 2.4rem;
+}
+
+.profile__expedu-detail:first-of-type {
+    border-bottom: 1px dotted #ccc;
+}
+
+.expedu-detail__heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/* Github */
+
+.github__heading {
+    margin: 4rem 0 2.4rem 0;
+}
+
+.github-repo {
+    grid-template-columns: 1fr 90px;
+    padding: 2.4rem 2.4rem 2.4rem 1.6rem;
+    margin-bottom: 1.6rem;
+    border: 1px solid #ccc;
+    gap: 1.6rem;
+}
+
+.repo__stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.repo__stat-no {
+    font-size: 1.28rem;
+    width: 90px;
+    padding: 0.4rem 0;
+    text-align: center;
+}
+
+.repo__stat--stars {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.repo__stat--watchers {
+    background-color: #000;
+    color: white;
+}
+
+.repo__stat--forks {
+    border: 1px solid #ccc;
+}
+
+

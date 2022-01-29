@@ -1,0 +1,48 @@
+
+/* ************************************* */
+/* Profiles */
+/* ************************************* */
+
+.section-profiles {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    padding: 9.6rem;
+}
+
+.profiles__body {
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 1.6rem;
+    border: 1px solid #ccc;
+}
+
+.profiles__body:first-of-type {
+    margin-top: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+.profiles__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.profiles__img-img {
+    max-width: 234px;
+    border-radius: 50%;
+}
+
+.profiles__skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profiles__skill-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+}
+

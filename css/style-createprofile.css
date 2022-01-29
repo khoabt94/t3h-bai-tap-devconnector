@@ -1,0 +1,46 @@
+
+/* ************************************* */
+/* Create Profiles */
+/* ************************************* */
+
+.section-create {
+    background-color: #fff;
+    width: 100%;
+    padding: 9.6rem;
+}
+
+.create-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.create__form {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.create-container .small-head {
+    margin-top: 3.2rem;
+}
+
+.form__row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form__row--social {
+    padding-left: 6.4rem;
+}
+
+.create__social {
+    display: flex;
+    align-items: center;
+}
+
+.create__submit {
+    margin-top: 1.6rem;
+}
+
