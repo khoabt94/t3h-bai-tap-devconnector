@@ -1,0 +1,126 @@
+/* ************************************* */
+/* BELOW 944px (Tablets) */
+/* ************************************* */
+
+@media (max-width: 59em) {
+    .profiles__body {
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 3.2rem;
+    }
+
+    .profiles__img-img {
+        max-width: 150px;
+    }
+
+    .profiles__info {
+        gap: 0.8rem;
+    }
+}
+
+
+
+/* ************************************* */
+/* BELOW 744px (Small Tablets) */
+/* ************************************* */
+
+@media (max-width: 47em) {
+    .section-signup {
+        padding: 9.6rem 0;
+    }
+
+    .profiles__skill {
+        display: none;
+    }
+
+    .profiles__body {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .profiles__info {
+        align-items: center;
+    }
+
+    .profiles__info .btn:link, .profiles__info .btn:visited {
+        align-self: center;
+    }
+
+    .profile__expedu {
+        grid-template-columns: 1fr;
+    }
+
+    .posts__body, .posts__body {
+        padding: 1.6rem;
+        gap: 1.6rem;
+    }
+    
+    .table__year {
+        display: none;
+    }
+    
+    
+}
+
+/* ************************************* */
+/* BREAK NAV */
+/* ************************************* */
+
+@media (max-width: 44em) {
+    .nav {
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+
+    .section-signup {
+        padding: 16.8rem 0;
+    } 
+
+    .section-login {
+        padding: 14.8rem 0;
+    }  
+
+    .section-addedu, 
+    .section-addexp, 
+    .section-create, 
+    .section-dashboard,
+    .section-post,
+    .section-posts,
+    .section-profiles,
+    .section-profile {
+        padding: 12.8rem 0
+    }
+    
+}
+
+
+/* ************************************* */
+/* BELOW 552px (Phones) */
+/* ************************************* */
+
+@media (max-width: 35em) {
+
+    .posts__body {
+        grid-template-columns: 1fr;
+    }
+
+    .posts__stat .btn:link, .posts__stat .btn:visited {
+        padding: 0.8rem 1.2rem;
+    }
+
+    .post__body {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard__btn {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .dashboard__btn .btn:link, .dashboard__btn .btn:visited {
+        align-self: stretch;
+    }
+
+
+}
